@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>波光の洋食館 | Menu</title>
+    <link rel="icon" href="./image/egg-fried.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./navStyle.css">
+    <link rel="stylesheet" href="./myStyle.css">
+
+    <style>
+        .carousel-item img {
+            padding: 10px;
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .myPlate img {
+            padding: 30px;
+            width: 00px;
+            height: 100%;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container d-flex justify-content-end">
+                <ul class="navBar d-flex list-unstyled m-0">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="./booking.html" class="nav-link">Booking</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="padding-top: 70px;"></div>
+    </div>
+
+    <div class="welcome">
+        <img src="./image/menupage.jpg" alt="菜單頁面" style="opacity: 0.7;">
+    </div>
+
+    <br>
+
+    <div class="container my-3">
+        <h3 class="text-start mb-4 text-secondary" style="font-weight: bold;">精選餐點</h3>
+
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/soup1.png" class="card-img-top menu-img" alt="焦糖手工布丁">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">玉米濃湯</h5>
+                            <span class="price-tag">$ 90</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            鮮甜玉米粒融入香濃奶油，口感綿密滑順。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/soup2.png" class="card-img-top menu-img" alt="焦糖手工布丁">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">洋蔥濃湯</h5>
+                            <span class="price-tag">$ 90</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            焦香洋蔥釋放自然甘甜，湯頭層次豐富、溫暖醇厚。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/tonkatsu.png" class="card-img-top menu-img" alt="日式炸豬排">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">日式炸豬排</h5>
+                            <span class="price-tag">$ 220</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            外皮酥脆金黃、肉質厚實多汁，搭配特調日式豬排醬。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/omurice.png" class="card-img-top menu-img" alt="經典蛋包飯">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">歐姆蛋包飯</h5>
+                            <span class="price-tag">$ 180</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            滑嫩香濃的半熟歐姆蛋，包覆香氣十足的茄汁炒飯。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/pancake.png" class="card-img-top menu-img" alt="手作美式鬆餅">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">奶油鬆餅</h5>
+                            <span class="price-tag">$ 180</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            現點現烤鬆軟綿密，淋上純榛果楓糖漿與新鮮奶油。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/pudding.png" class="card-img-top menu-img" alt="焦糖手工布丁">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">昭和焦糖布丁</h5>
+                            <span class="price-tag">$ 90</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            濃郁蛋香與苦甜適中的手作焦糖，口感綿密滑順。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/coffeepaint.png" class="card-img-top menu-img" alt="焦糖手工布丁">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">特調冰咖啡</h5>
+                            <span class="price-tag">$ 90</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            深焙咖啡豆的沉穩炭香，冰鎮出回甘的苦甜層次。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 menu-card border-0 shadow-sm">
+                    <img src="./image/sodapaint.png" class="card-img-top menu-img" alt="焦糖手工布丁">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title m-0 fw-bold">哈密瓜蘇打</h5>
+                            <span class="price-tag">$ 150</span>
+                        </div>
+                        <p class="card-text text-muted small flex-grow-1">
+                            哈密瓜風味沁涼氣泡蘇打，搭配一球香草冰淇淋與紅櫻桃。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <br><br>
+    
+    <div class="container">
+        <div id="foody" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#foody" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/lemonjuice.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>檸檬紅茶</h5>
+                        <p>醇厚紅茶底蘊融入新鮮檸檬切片，酸甜微澀的清爽口感。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/coffee.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>喫茶冰滴咖啡</h5>
+                        <p>時間慢滴出的琥珀精華，口感圓潤澄澈，帶有淡淡酒香與沉靜果酸。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/currytonkatsu2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>咖哩豬排飯</h5>
+                        <p>熟成咖哩的深邃香氣包裹著金黃香酥厚切豬排，每咬一口都是滿足的紮實口感。</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/ebifry.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>天婦羅炸蝦</h5>
+                        <p>麵衣酥翠輕盈、蝦肉鮮甜彈牙，沾上特製蘿蔔泥沾醬，清爽不油膩的經典和風。</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./image/pasta.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>茄汁肉醬義大利麵</h5>
+                        <p>拿坡里式的濃郁番茄酸甜，與多汁肉醬充分拌炒，沾附彈牙麵條的懷舊好滋味。</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="./image/strawcake2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>草莓鮮奶油蛋糕</h5>
+                        <p>蓬鬆綿密的戚風蛋糕體，夾入多汁酸甜草莓與輕盈鮮奶油，優雅交織的甜美典範。</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="./image/pancke2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>手作鬆餅</h5>
+                        <p>現點現煎的熱騰騰麵香，外酥內軟、空氣感十足，淋上楓糖漿即可享受純粹幸福。</p>
+                    </div>
+                </div>
+           
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#foody" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#foody" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <br><br><br><br><br>
+
+    <a href="#" class="btn back-to-top">Top</a>
+
+    <footer class="text-center my-4">
+        <div class="mb-2">
+            <div class="d-flex justify-content-center gap-3 fs-4">
+                <i class="bi bi-line"></i>
+                <i class="bi bi-threads"></i>
+                <i class="bi bi-messenger"></i>
+            </div>
+        </div>
+
+        <p class="copyright m-0">
+            Copyright &copy; <span id="current-year"></span> by Iris Chiu. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>波光の洋食館 | Home</title>
+
+    <link rel="icon" href="./image/egg-fried.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./navStyle.css">
+    <link rel="stylesheet" href="./myStyle.css">
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container d-flex justify-content-end">
+                <ul class="navBar d-flex list-unstyled m-0">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="./booking.html" class="nav-link">Booking</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" style="padding-top: 50px;"></div>
+    </div>
+
+    <br>
+
+
+    <div class="container text-center">
+        <img class="img-fluid" src="./image/welcome.jpg" style="width:100%; max-width:1000px; height:auto;" alt="歡迎光臨波光の洋食館">
+    </div>
+
+
+    <br><br><br><br>
+
+
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+                <figure class="figure d-flex flex-column align-items-center">
+                    <a href="./about.html">
+                        <img class="figure-img img-fluid rounded-circle circle-img" src="./image/coffee.jpg"
+                            alt="About關於我們">
+                    </a>
+                    <figcaption class="figure-caption mt-2">
+                        <a href="./about.html" class="btn btn-outline-success rounded-pill px-4 myBtn">About</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4">
+                <figure class="figure d-flex flex-column align-items-center">
+                    <a href="./menu.html">
+                        <img class="figure-img img-fluid rounded-circle circle-img" src="./image/currytonkatsu2.jpg"
+                            alt="Menu菜單">
+                    </a>
+                    <figcaption class="figure-caption mt-2">
+                        <a href="./menu.html" class="btn btn-outline-success rounded-pill px-4">Menu</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-4">
+                <figure class="figure d-flex flex-column align-items-center">
+                    <a href="./booking.html">
+                        <img class="figure-img img-fluid rounded-circle circle-img" src="./image/cake.jpg"
+                            alt="Booking立即訂位">
+                    </a>
+                    <figcaption class="figure-caption mt-2">
+                        <a href="./booking.html" class="btn btn-outline-success rounded-pill px-4">Booking</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+
+                <h4 class="mb-3" style="color:#B23A2F;">餐廳位置</h4>
+                <p class=" text-muted mb-4"><i class="bi bi-geo-alt-fill"></i> 地址：台中市南屯區文心路一段515號</p>
+
+                    <div class="map-container shadow-sm rounded-4 overflow-hidden">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58246.48222173293!2d120.65233659999998!3d24.15752035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d9443abb40b%3A0x341dfb998d9c79cd!2z5rC05a6J5a6u!5e0!3m2!1szh-TW!2stw!4v1784685748937!5m2!1szh-TW!2stw"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            title="波光の洋食館 地圖位置"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <a href="#" class="btn back-to-top">Top</a>
+
+    <footer class="text-center my-4">
+        <div class="mb-2">
+            <div class="d-flex justify-content-center gap-3 fs-4">
+                <i class="bi bi-line"></i>
+                <i class="bi bi-threads"></i>
+                <i class="bi bi-messenger"></i>
+            </div>
+        </div>
+
+        <p class="copyright m-0">
+            Copyright &copy; <span id="current-year"></span> by Iris Chiu. All Rights Reserved.
+        </p>
+    </footer>
+
+
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

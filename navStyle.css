@@ -1,0 +1,23 @@
+.navBar {
+    list-style-type: none;
+    text-align: center;
+    background-color: #085528;
+}
+
+
+.navBar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.navBar li:hover {
+    background-color: #b17215;
+}
+
+
+.navBar li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
