@@ -16,6 +16,9 @@ A four-page static website for a Japanese-style Western restaurant (course proje
 - Descriptive page titles, `lang="zh-Hant"`, accessible map title
 - Removed unused assets and unused Bootstrap source files
 
+## Live demo
+https://restaurant-website-eight-jade.vercel.app  
+
 ## Run locally
 No build step. Open `index.html` in a browser.
 
